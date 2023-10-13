@@ -14,8 +14,6 @@ public:
     int maxDepth(TreeNode* root) {
         // using recursion 
         if(root == NULL) return 0;
-        int lt = maxDepth(root->left);
-        int rt = maxDepth(root->right);
-        return max(lt,rt)+1;
+        return max(maxDepth(root->left),maxDepth(root->right))+1;
     }
 };
