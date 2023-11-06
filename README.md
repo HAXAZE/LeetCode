@@ -1,2 +1,2 @@
 # DSA QUESTIONS
-All the Problems solved on LeetCode
+This repository contains a collection of problems solved based on Data Structures and Algorithms.
